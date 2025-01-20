@@ -1,8 +1,8 @@
 package org.example.company;
 
-public class Mitsubishi extends Car {
+public class Ford extends Car {
 
-    public Mitsubishi(int cylinders, String name) {
+    public Ford(int cylinders, String name) {
         super(cylinders, name);
     }
 
@@ -11,7 +11,6 @@ public class Mitsubishi extends Car {
         System.out.println(this.getClass().getSimpleName() + "'s Car engine is starting");
         return super.startEngine();
     }
-
     public String accelerate() {
         return (this.getClass().getSimpleName() + " is accelerating");
     }
